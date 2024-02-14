@@ -189,9 +189,9 @@
   }
   
   .options.open #open {
-    transform: translateX(calc(-180% - 10px)); /* Desplazar el botón "Abrir" hacia la izquierda */
+    transform: translateX(calc(-250% - 10px)); /* Desplazar el botón "Abrir" hacia la izquierda */
   }
   
   .options.open #close {
-    transform: translateX(calc(180% + 10px)); /* Desplazar el botón "Cerrar" hacia la derecha */
+    transform: translateX(calc(250% + 10px)); /* Desplazar el botón "Cerrar" hacia la derecha */
   }
