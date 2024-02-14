@@ -88,15 +88,17 @@
     border-top: 100px solid transparent;
     border-bottom: 100px solid #ff858a;
   }
-  
+
   .options {
     display: flex;
     justify-content: center;
     gap: 5rem;
     position: relative;
-    
-    width: 50rem;
+    width: 80%; /* Ajusta el ancho de los botones */
+    margin-top: 5rem; /* Ajusta el margen superior de la carta */
   }
+  
+  
   
   #open,
   #close {
