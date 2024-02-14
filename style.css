@@ -37,7 +37,7 @@
   /* TODO: Cambiar la fuente */
   
   body {
-    background-image: url(foto1.jpg);
+    background-color: pink;
     background-size: 50% 50%;
     background-repeat: repeat;
     background-position: center center;
@@ -52,6 +52,8 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    width: 100%;
+    min-width: 100%;
   }
   
   .container-letter {
@@ -92,9 +94,10 @@
   .options {
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 2rem;
     position: relative;
     width: 100%; /* Ajusta el ancho de los botones */
+    min-width: 100%;
     margin-top: 5rem; /* Ajusta el margen superior de la carta */
   }
   
