@@ -91,8 +91,11 @@
   
   .options {
     display: flex;
+    justify-content: center;
     gap: 5rem;
     position: relative;
+    
+    width: 50rem;
   }
   
   #open,
