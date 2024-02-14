@@ -37,7 +37,12 @@
   /* TODO: Cambiar la fuente */
   
   body {
-    background-color: #fad7df;
+    background-image: url(foto1.jpg);
+    background-size: 50% 50%;
+    background-repeat: repeat;
+    background-position: center center;
+   
+    
   }
   
   main {
@@ -177,9 +182,9 @@
   }
   
   .options.open #open {
-    transform: translateX(calc(-150% - 20px)); /* Desplazar el botón "Abrir" hacia la izquierda */
+    transform: translateX(calc(-180% - 10px)); /* Desplazar el botón "Abrir" hacia la izquierda */
   }
   
   .options.open #close {
-    transform: translateX(calc(150% + 20px)); /* Desplazar el botón "Cerrar" hacia la derecha */
+    transform: translateX(calc(180% + 10px)); /* Desplazar el botón "Cerrar" hacia la derecha */
   }
